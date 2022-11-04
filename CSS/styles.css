@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Avenir';
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(../FONTS/avenir_ff/AvenirLTStd-Roman.otf);
+    font-weight: 400;
+  }
+
+@font-face {
+    font-family: Avenir;
+    src: url(../FONTS/avenir_ff/AvenirLTStd-Black.otf);
+    font-weight: 800;
+}
+
+.page_width{
+    width: 100%;
+    margin: 0px auto;
+}
+
+header{
+    padding: 4% 8.3% 4% 8.3%;
+}
+
+.bg{
+    background-image: url(../IMG/bg_.png), url(../IMG/Square.png);
+    background-repeat: no-repeat;
+    background-position: 100% 20%, 0 45%;
+    background-size: 45%, 5%;
+}
+
+.text_block{
+    padding: 0 8.33% 0 8.33%;
+}
+
+.flex{
+    display: flex;
+    align-items: baseline;
+    justify-content: stretch;
+}
+
+.logo{
+    font-family: 'Open Sans';
+    color: #BC436A;
+    font-size: 18px;
+    font-weight: 700;
+    width: 20%;
+}
+
+.menu{
+    display: flex;
+    width: 80%;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+a{
+    text-decoration: none;
+    color: #776677;
+    padding-right:40px; 
+}
+
+a:hover{
+    color: #BC436A;
+    text-shadow: 4px 4px 4px #BC436A;
+}
+
+.header_button{
+    padding: 8px;
+    color:#fff;
+    background-color: #386E41;
+    font-size: 16px;
+    font-weight: 400;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    min-width: 102px;
+}
+
+.header_button:hover{
+    background-color: #BC436A;
+    box-shadow: 5px 5px 5px #BC436A;  
+}
+
+.text_block h3{
+    width: 50%;
+    font-size: 36px;
+    font-weight: 800;
+    color: #333;
+    padding: 156px 74px 16px 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+span{
+    color: #BC436A;
+}
+
+.text_block p{
+    width: 50%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #7A7A7A;
+    padding: 0 82px 236px 0;
+    margin-left: -5px;
+    position: relative;
+}
+
+#arrow_here{
+    width: 50%;
+    position: relative;
+    padding-bottom: 33px;
+    background-image: url(../IMG/chevron-right.png);
+    background-repeat: no-repeat;
+    background-position: 200px 0px;
+}
+
+.green_menu{
+    margin:0 8.33% 72px 8.33%;
+    padding: 0 33px;
+    background-color: #386E41;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.green_menu input{
+    margin-right: 5.21%;
+    width: 21.08%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: #386E41;
+    color:#fff;
+    background-image: url(../IMG/single-chevron-down.png);
+    background-repeat: no-repeat;
+    background-position: 95% 0%;
+    padding-bottom:8px;
+}
+
+.green_menu input:hover{
+    border-bottom: 1px solid #da14527e;
+}
+
+.green_menu button:hover{
+    background-color: #da14527e;
+    box-shadow: 3px 3px 3px #da14527e;
+}
+
+::placeholder{
+    color:#fff;
+}
+
+.green_menu button{
+    margin: 30px 0 29px 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.11);
+    background-color: #BC436A;
+    padding: 8px 21px;
+    color: #fff;
+    border: none;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.11);
+    border-radius: 4px;
+}
+
+.bottom_text{
+    padding: 72px 0 73px 0;
+    text-align: center;
+    color:#767676;
+    font-size: 18px;
+    font-weight: 400;
+    background-image: url(../IMG/chevron-down.png);
+    background-repeat: no-repeat;
+    background-position: center 100px;
+}
